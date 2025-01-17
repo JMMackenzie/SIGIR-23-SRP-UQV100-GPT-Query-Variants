@@ -26,7 +26,7 @@ def main():
     example = dm.generate_random_example()
     example_emp = [example]
     # generate the inputs to the model
-    prompt_ls = dm.generate_prompts(example_emp,"prompt_A")
+    prompt_ls = dm.generate_prompts(example_emp,"DESC_A")
 
     print("# of prompts to be submitted: {}".format(len(prompt_ls)))
     # for i in prompt_ls:
