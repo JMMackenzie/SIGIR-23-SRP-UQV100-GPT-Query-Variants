@@ -45,7 +45,7 @@ def main():
             # print(example)
             gpt3_completion = GPT3Completion(api_key)
             response = gpt3_completion.generate_completions(
-                model="text-davinci-003",
+                model="gpt-3.5-turbo",
                 prompt=prompt_ls[i],
                 temperature=temp,
                 max_tokens=3000,
